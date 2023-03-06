@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "b50fc0f0-6ea9-460a-ba17-cc67431c9d47",
+		"name": "My API collections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26171659"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var jsonData = pm.response.json();\r",
+							"console.log(jsonData)\r",
+							"console.log(jsonData.swagger)\r",
+							"pm.test(\"confirm swagger version is 2.0\", function () {\r",
+							"    pm.expect(jsonData.swagger).to.eql(\"2.0\");\r",
+							"});\r",
+							"pm.test(\"confirm tag[0] name is pet\", function () {\r",
+							"    pm.expect(jsonData.swagger).to.eql(\"2.0\");\r",
+							"});\r",
+							"pm.test(\"confirm externalDocstag description is Find out more about Swagger\", function () {\r",
+							"    pm.expect(jsonData.swagger).to.eql(\"2.0\");\r",
+							"});\r",
+							"pm.test(\"confirm host is petstore.swagger.io\", function () {\r",
+							"    pm.expect(jsonData.swagger).to.eql(\"2.0\");\r",
+							"});\r",
+							"pm.test(\"confirm schemes [1] is http \", function () {\r",
+							"    pm.expect(jsonData.swagger).to.eql(\"2.0\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/swagger.json",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"swagger.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
