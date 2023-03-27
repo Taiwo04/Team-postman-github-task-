@@ -1,0 +1,1152 @@
+newman
+
+My API collections
+
+→ Task 6
+  GET https://www.getpostman.com/collections/15036f85a35d875ecfdf [200 OK, 11.76kB, 919ms]
+  √  Status code should be 200
+  √  Status code name should have string
+
+→ Task 7
+  GET https://www.getpostman.com/collections/15036f85a35d875ecfdf [200 OK, 11.6kB, 438ms]
+  √  Status code should be 200
+  √  Status code name should have string
+  ┌
+  │ {
+  │   id: '4c03efcb-f082-448a-a23a-59efc623ef2f',
+  │   name: 'MyTutorCollection',
+  │   description: 'For collection of my own examples duri
+  │ ng tutorial training',
+  │   auth: null,
+  │   events: null,
+  │   variables: [],
+  │   order: [
+  │     'acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36'
+  │   ],
+  │   folders_order: [
+  │     'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │     '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │     '312a1e48-ba5a-4eed-8754-67ea290151d4'
+  │   ],
+  │   folders: [
+  │     {
+  │       id: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       name: 'All my GET Request',
+  │       description: '',
+  │       auth: null,
+  │       events: null,
+  │       collection: '4c03efcb-f082-448a-a23a-59efc623ef2
+  │ f',
+  │       folder: null,
+  │       order: [
+  │         '53ff73f9-7b19-4347-a69f-72dd135fd67d',
+  │         '897703cb-1685-4e0b-a218-736e8a1cec04',
+  │         '7e76cfc7-3b11-436f-b86b-fdf72fc7b604',
+  │         'c32639ac-75cc-4615-bdb4-ba5c315ff639',
+  │         'ccaaf604-eac0-4d60-866b-3e7e9c3adec8'
+  │       ],
+  │       folders_order: [],
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       folderId: 'ced65177-78d1-43e6-8e7a-ba20571d8f05'
+  │     },
+  │     {
+  │       id: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       name: 'All my POST Request',
+  │       description: '',
+  │       auth: null,
+  │       events: null,
+  │       collection: '4c03efcb-f082-448a-a23a-59efc623ef2
+  │ f',
+  │       folder: null,
+  │       order: [
+  │         'efa4c7c7-4375-48bb-8ffa-25d0b2be85b0',
+  │         '9c7ada91-ce0d-47bf-ad06-88cf134fd68d',
+  │         '63353b95-57b4-46b2-9312-d9718d05610c',
+  │         'ebd4f8a6-df99-4171-a662-85a3092a2b9e'
+  │       ],
+  │       folders_order: [],
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       folderId: '9ccaf13d-fa2a-468f-9ce8-11751147e05b'
+  │     },
+  │     {
+  │       id: '312a1e48-ba5a-4eed-8754-67ea290151d4',
+  │       name: 'Trello',
+  │       description: null,
+  │       auth: null,
+  │       events: null,
+  │       collection: '4c03efcb-f082-448a-a23a-59efc623ef2
+  │ f',
+  │       folder: null,
+  │       order: [
+  │         'f7d0ee08-470a-459b-b4c5-57fe58878dff',
+  │         'ec2b55fa-c418-4070-9c27-692f4db74342'
+  │       ],
+  │       folders_order: [],
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       folderId: '312a1e48-ba5a-4eed-8754-67ea290151d4'
+  │     }
+  │   ],
+  │   requests: [
+  │     {
+  │       id: '53ff73f9-7b19-4347-a69f-72dd135fd67d',
+  │       name: 'example.com',
+  │       url: 'example.com ',
+  │       description: null,
+  │       data: [
+  │         {
+  │           key: 'Firstname',
+  │           value: 'Ibironke Yekinni',
+  │           description: '',
+  │           type: 'text',
+  │           enabled: true
+  │         }
+  │       ],
+  │       dataMode: 'urlencoded',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           value: 'application/x-www-form-urlencoded',
+  │           description: ''
+  │         },
+  │         {
+  │           key: 'My-Own-Header',
+  │           value: 'Postman Revision',
+  │           description: '',
+  │           enabled: true
+  │         }
+  │       ],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: { type: 'noauth' },
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: 'Content-Type: application/x-www-form-u
+  │ rlencoded\n' +
+  │         'My-Own-Header: Postman Revision\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '63353b95-57b4-46b2-9312-d9718d05610c',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'raw',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           type: 'text',
+  │           name: 'Content-Type',
+  │           value: 'application/json',
+  │           disabled: false
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       rawModeData: '{\n' +
+  │         '    "name": "ibironke",\n' +
+  │         '    "level": "400Level",\n' +
+  │         '    "department": "Computer Science"\n' +
+  │         '}',
+  │       headers: 'Content-Type: application/json\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '7e76cfc7-3b11-436f-b86b-fdf72fc7b604',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '897703cb-1685-4e0b-a218-736e8a1cec04',
+  │       name: 'Postman Logo',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '9c7ada91-ce0d-47bf-ad06-88cf134fd68d',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'raw',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           type: 'text',
+  │           name: 'Content-Type',
+  │           value: 'application/json',
+  │           disabled: false
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       rawModeData: '{\n' +
+  │         '    "name": "ibironke",\n' +
+  │         '    "level": "400Level",\n' +
+  │         '    "department": "Computer Science"\n' +
+  │         '}',
+  │       headers: 'Content-Type: application/json\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36',
+  │       name: 'My assignment',
+  │       url: 'https://api.nytimes.com/svc/books/v3/lists
+  │ .json?list=hardcover-nonfiction&published-date=2018-04
+  │ -22&rank-last-week=4&rank=1',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [
+  │         {
+  │           key: 'api-key',
+  │           value: '591cfc0d6f9f439e82120e3997984477',
+  │           enabled: true
+  │         }
+  │       ],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'list',
+  │           value: 'hardcover-nonfiction',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'published-date',
+  │           value: '2018-04-22',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'rank-last-week',
+  │           value: '4',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'rank',
+  │           value: '1',
+  │           equals: true,
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: null,
+  │       folder: null,
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: 'api-key: 591cfc0d6f9f439e82120e3997984
+  │ 477\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'c32639ac-75cc-4615-bdb4-ba5c315ff639',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'ccaaf604-eac0-4d60-866b-3e7e9c3adec8',
+  │       name: 'https://api.getpostman.com/collections/47
+  │ d18cb4-485f-4e02-b4e3-fd1a1c033833?apikey=1df3dbbf91dd
+  │ 4da5ae640ca98e4f8585',
+  │       url: 'https://api.getpostman.com/collections/47d
+  │ 18cb4-485f-4e02-b4e3-fd1a1c033833?apikey=1df3dbbf91dd4
+  │ da5ae640ca98e4f8585',
+  │       description: '',
+  │       data: null,
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'apikey',
+  │           value: '1df3dbbf91dd4da5ae640ca98e4f8585',
+  │           equals: true,
+  │           description: '',
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: [],
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'ebd4f8a6-df99-4171-a662-85a3092a2b9e',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'raw',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           type: 'text',
+  │           name: 'Content-Type',
+  │           value: 'application/json',
+  │           disabled: false
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       rawModeData: '{\n' +
+  │         '    "name": "ibironke",\n' +
+  │         '    "level": "400Level",\n' +
+  │         '    "department": "Computer Science"\n' +
+  │         '}',
+  │       headers: 'Content-Type: application/json\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'ec2b55fa-c418-4070-9c27-692f4db74342',
+  │       name: 'Cottytalk Demo 1',
+  │       url: 'https://api.trello.com/1/cards/5ad9ff5e43d
+  │ 49ec760adbdc5?key={{API_key}}&token={{API_token}}',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'key',
+  │           value: '{{API_key}}',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'token',
+  │           value: '{{API_token}}',
+  │           equals: true,
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: null,
+  │       folder: '312a1e48-ba5a-4eed-8754-67ea290151d4',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'efa4c7c7-4375-48bb-8ffa-25d0b2be85b0',
+  │       name: 'example.com with POST',
+  │       url: 'example.com ',
+  │       description: null,
+  │       data: [
+  │         {
+  │           key: 'Firstname',
+  │           value: 'Ibironke Yekinni',
+  │           type: 'text',
+  │           enabled: true
+  │         }
+  │       ],
+  │       dataMode: 'urlencoded',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           value: 'application/x-www-form-urlencoded'
+  │         },
+  │         {
+  │           key: 'My-Own-Header',
+  │           value: 'Postman Revision',
+  │           enabled: true
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: { type: 'noauth' },
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: 'Content-Type: application/x-www-form-u
+  │ rlencoded\n' +
+  │         'My-Own-Header: Postman Revision\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'f7d0ee08-470a-459b-b4c5-57fe58878dff',
+  │       name: 'Testing',
+  │       url: 'https://api.trello.com/1/boards/?name=Ibir
+  │ onke Board (2)&key=cb4b4021f8d3faa976f51fbfd3a31246&to
+  │ ken=e0ac336a8fd917ee73aaa3f315a799be0a03959088132df905
+  │ 11108e92ba58c9&defaultLists=false',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'name',
+  │           value: 'Ibironke Board (2)',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'key',
+  │           value: 'cb4b4021f8d3faa976f51fbfd3a31246',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'token',
+  │           value: 'e0ac336a8fd917ee73aaa3f315a799be0a03
+  │ 959088132df90511108e92ba58c9',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'defaultLists',
+  │           value: 'false',
+  │           equals: true,
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: [
+  │         {
+  │           listen: 'test',
+  │           script: {
+  │             id: 'e784752c-0ce5-45de-9ec4-ddd475240c1c'
+  │ ,
+  │             type: 'text/javascript',
+  │             exec: [
+  │               'pm.test("Status code is 200", function 
+  │ () {',
+  │               '    pm.response.to.have.status(200);',
+  │               '});',
+  │               '',
+  │               `pm.test("Board name should be: 'Ibironk
+  │ e Board (2)'"), function () {`,
+  │               '    var jsonData = pm.response.json();'
+  │ ,
+  │               "    pm.expect(jsonData.value).to.eql('I
+  │ bironke Board (2)');",
+  │               '};'
+  │             ]
+  │           }
+  │         }
+  │       ],
+  │       folder: '312a1e48-ba5a-4eed-8754-67ea290151d4',
+  │       preRequestScript: null,
+  │       tests: 'pm.test("Status code is 200", function (
+  │ ) {\n' +
+  │         '    pm.response.to.have.status(200);\n' +
+  │         '});\n' +
+  │         '\n' +
+  │         `pm.test("Board name should be: 'Ibironke Boar
+  │ d (2)'"), function () {\n` +
+  │         '    var jsonData = pm.response.json();\n' +
+  │         "    pm.expect(jsonData.value).to.eql('Ibironk
+  │ e Board (2)');\n" +
+  │         '};',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     }
+  │   ]
+  │ }
+  │ 'MyTutorCollection'
+  │ '312a1e48-ba5a-4eed-8754-67ea290151d4'
+  │ '63353b95-57b4-46b2-9312-d9718d05610c'
+  │ 'example.com '
+  └
+  √  verify that name is present
+  √  verify that the secound order was recorded
+  √  verify that id is correct
+  √  verify that url matches
+
+→ Task 8
+  GET https://www.getpostman.com/collections/15036f85a35d875ecfdf [200 OK, 11.6kB, 417ms]
+  √  Status code should be 200
+  √  Status code name should have string
+  ┌
+  │ {
+  │   id: '4c03efcb-f082-448a-a23a-59efc623ef2f',
+  │   name: 'MyTutorCollection',
+  │   description: 'For collection of my own examples duri
+  │ ng tutorial training',
+  │   auth: null,
+  │   events: null,
+  │   variables: [],
+  │   order: [
+  │     'acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36'
+  │   ],
+  │   folders_order: [
+  │     'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │     '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │     '312a1e48-ba5a-4eed-8754-67ea290151d4'
+  │   ],
+  │   folders: [
+  │     {
+  │       id: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       name: 'All my GET Request',
+  │       description: '',
+  │       auth: null,
+  │       events: null,
+  │       collection: '4c03efcb-f082-448a-a23a-59efc623ef2
+  │ f',
+  │       folder: null,
+  │       order: [
+  │         '53ff73f9-7b19-4347-a69f-72dd135fd67d',
+  │         '897703cb-1685-4e0b-a218-736e8a1cec04',
+  │         '7e76cfc7-3b11-436f-b86b-fdf72fc7b604',
+  │         'c32639ac-75cc-4615-bdb4-ba5c315ff639',
+  │         'ccaaf604-eac0-4d60-866b-3e7e9c3adec8'
+  │       ],
+  │       folders_order: [],
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       folderId: 'ced65177-78d1-43e6-8e7a-ba20571d8f05'
+  │     },
+  │     {
+  │       id: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       name: 'All my POST Request',
+  │       description: '',
+  │       auth: null,
+  │       events: null,
+  │       collection: '4c03efcb-f082-448a-a23a-59efc623ef2
+  │ f',
+  │       folder: null,
+  │       order: [
+  │         'efa4c7c7-4375-48bb-8ffa-25d0b2be85b0',
+  │         '9c7ada91-ce0d-47bf-ad06-88cf134fd68d',
+  │         '63353b95-57b4-46b2-9312-d9718d05610c',
+  │         'ebd4f8a6-df99-4171-a662-85a3092a2b9e'
+  │       ],
+  │       folders_order: [],
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       folderId: '9ccaf13d-fa2a-468f-9ce8-11751147e05b'
+  │     },
+  │     {
+  │       id: '312a1e48-ba5a-4eed-8754-67ea290151d4',
+  │       name: 'Trello',
+  │       description: null,
+  │       auth: null,
+  │       events: null,
+  │       collection: '4c03efcb-f082-448a-a23a-59efc623ef2
+  │ f',
+  │       folder: null,
+  │       order: [
+  │         'f7d0ee08-470a-459b-b4c5-57fe58878dff',
+  │         'ec2b55fa-c418-4070-9c27-692f4db74342'
+  │       ],
+  │       folders_order: [],
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       folderId: '312a1e48-ba5a-4eed-8754-67ea290151d4'
+  │     }
+  │   ],
+  │   requests: [
+  │     {
+  │       id: '53ff73f9-7b19-4347-a69f-72dd135fd67d',
+  │       name: 'example.com',
+  │       url: 'example.com ',
+  │       description: null,
+  │       data: [
+  │         {
+  │           key: 'Firstname',
+  │           value: 'Ibironke Yekinni',
+  │           description: '',
+  │           type: 'text',
+  │           enabled: true
+  │         }
+  │       ],
+  │       dataMode: 'urlencoded',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           value: 'application/x-www-form-urlencoded',
+  │           description: ''
+  │         },
+  │         {
+  │           key: 'My-Own-Header',
+  │           value: 'Postman Revision',
+  │           description: '',
+  │           enabled: true
+  │         }
+  │       ],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: { type: 'noauth' },
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: 'Content-Type: application/x-www-form-u
+  │ rlencoded\n' +
+  │         'My-Own-Header: Postman Revision\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '63353b95-57b4-46b2-9312-d9718d05610c',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'raw',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           type: 'text',
+  │           name: 'Content-Type',
+  │           value: 'application/json',
+  │           disabled: false
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       rawModeData: '{\n' +
+  │         '    "name": "ibironke",\n' +
+  │         '    "level": "400Level",\n' +
+  │         '    "department": "Computer Science"\n' +
+  │         '}',
+  │       headers: 'Content-Type: application/json\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '7e76cfc7-3b11-436f-b86b-fdf72fc7b604',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '897703cb-1685-4e0b-a218-736e8a1cec04',
+  │       name: 'Postman Logo',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: '9c7ada91-ce0d-47bf-ad06-88cf134fd68d',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'raw',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           type: 'text',
+  │           name: 'Content-Type',
+  │           value: 'application/json',
+  │           disabled: false
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       rawModeData: '{\n' +
+  │         '    "name": "ibironke",\n' +
+  │         '    "level": "400Level",\n' +
+  │         '    "department": "Computer Science"\n' +
+  │         '}',
+  │       headers: 'Content-Type: application/json\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36',
+  │       name: 'My assignment',
+  │       url: 'https://api.nytimes.com/svc/books/v3/lists
+  │ .json?list=hardcover-nonfiction&published-date=2018-04
+  │ -22&rank-last-week=4&rank=1',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [
+  │         {
+  │           key: 'api-key',
+  │           value: '591cfc0d6f9f439e82120e3997984477',
+  │           enabled: true
+  │         }
+  │       ],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'list',
+  │           value: 'hardcover-nonfiction',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'published-date',
+  │           value: '2018-04-22',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'rank-last-week',
+  │           value: '4',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'rank',
+  │           value: '1',
+  │           equals: true,
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: null,
+  │       folder: null,
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: 'api-key: 591cfc0d6f9f439e82120e3997984
+  │ 477\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'c32639ac-75cc-4615-bdb4-ba5c315ff639',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'ccaaf604-eac0-4d60-866b-3e7e9c3adec8',
+  │       name: 'https://api.getpostman.com/collections/47
+  │ d18cb4-485f-4e02-b4e3-fd1a1c033833?apikey=1df3dbbf91dd
+  │ 4da5ae640ca98e4f8585',
+  │       url: 'https://api.getpostman.com/collections/47d
+  │ 18cb4-485f-4e02-b4e3-fd1a1c033833?apikey=1df3dbbf91dd4
+  │ da5ae640ca98e4f8585',
+  │       description: '',
+  │       data: null,
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'apikey',
+  │           value: '1df3dbbf91dd4da5ae640ca98e4f8585',
+  │           equals: true,
+  │           description: '',
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: [],
+  │       folder: 'ced65177-78d1-43e6-8e7a-ba20571d8f05',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'ebd4f8a6-df99-4171-a662-85a3092a2b9e',
+  │       name: 'https://www.getpostman.com/img/v2/logo-gl
+  │ yph.png',
+  │       url: 'https://www.getpostman.com/img/v2/logo-gly
+  │ ph.png',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'raw',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           type: 'text',
+  │           name: 'Content-Type',
+  │           value: 'application/json',
+  │           disabled: false
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: null,
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       rawModeData: '{\n' +
+  │         '    "name": "ibironke",\n' +
+  │         '    "level": "400Level",\n' +
+  │         '    "department": "Computer Science"\n' +
+  │         '}',
+  │       headers: 'Content-Type: application/json\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'ec2b55fa-c418-4070-9c27-692f4db74342',
+  │       name: 'Cottytalk Demo 1',
+  │       url: 'https://api.trello.com/1/cards/5ad9ff5e43d
+  │ 49ec760adbdc5?key={{API_key}}&token={{API_token}}',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'GET',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'key',
+  │           value: '{{API_key}}',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'token',
+  │           value: '{{API_token}}',
+  │           equals: true,
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: null,
+  │       folder: '312a1e48-ba5a-4eed-8754-67ea290151d4',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'efa4c7c7-4375-48bb-8ffa-25d0b2be85b0',
+  │       name: 'example.com with POST',
+  │       url: 'example.com ',
+  │       description: null,
+  │       data: [
+  │         {
+  │           key: 'Firstname',
+  │           value: 'Ibironke Yekinni',
+  │           type: 'text',
+  │           enabled: true
+  │         }
+  │       ],
+  │       dataMode: 'urlencoded',
+  │       headerData: [
+  │         {
+  │           key: 'Content-Type',
+  │           value: 'application/x-www-form-urlencoded'
+  │         },
+  │         {
+  │           key: 'My-Own-Header',
+  │           value: 'Postman Revision',
+  │           enabled: true
+  │         }
+  │       ],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [],
+  │       auth: { type: 'noauth' },
+  │       events: null,
+  │       folder: '9ccaf13d-fa2a-468f-9ce8-11751147e05b',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: 'Content-Type: application/x-www-form-u
+  │ rlencoded\n' +
+  │         'My-Own-Header: Postman Revision\n',
+  │       pathVariables: {}
+  │     },
+  │     {
+  │       id: 'f7d0ee08-470a-459b-b4c5-57fe58878dff',
+  │       name: 'Testing',
+  │       url: 'https://api.trello.com/1/boards/?name=Ibir
+  │ onke Board (2)&key=cb4b4021f8d3faa976f51fbfd3a31246&to
+  │ ken=e0ac336a8fd917ee73aaa3f315a799be0a03959088132df905
+  │ 11108e92ba58c9&defaultLists=false',
+  │       description: null,
+  │       data: [],
+  │       dataMode: 'params',
+  │       headerData: [],
+  │       method: 'POST',
+  │       pathVariableData: [],
+  │       queryParams: [
+  │         {
+  │           key: 'name',
+  │           value: 'Ibironke Board (2)',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'key',
+  │           value: 'cb4b4021f8d3faa976f51fbfd3a31246',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'token',
+  │           value: 'e0ac336a8fd917ee73aaa3f315a799be0a03
+  │ 959088132df90511108e92ba58c9',
+  │           equals: true,
+  │           enabled: true
+  │         },
+  │         {
+  │           key: 'defaultLists',
+  │           value: 'false',
+  │           equals: true,
+  │           enabled: true
+  │         }
+  │       ],
+  │       auth: null,
+  │       events: [
+  │         {
+  │           listen: 'test',
+  │           script: {
+  │             id: 'e784752c-0ce5-45de-9ec4-ddd475240c1c'
+  │ ,
+  │             type: 'text/javascript',
+  │             exec: [
+  │               'pm.test("Status code is 200", function 
+  │ () {',
+  │               '    pm.response.to.have.status(200);',
+  │               '});',
+  │               '',
+  │               `pm.test("Board name should be: 'Ibironk
+  │ e Board (2)'"), function () {`,
+  │               '    var jsonData = pm.response.json();'
+  │ ,
+  │               "    pm.expect(jsonData.value).to.eql('I
+  │ bironke Board (2)');",
+  │               '};'
+  │             ]
+  │           }
+  │         }
+  │       ],
+  │       folder: '312a1e48-ba5a-4eed-8754-67ea290151d4',
+  │       preRequestScript: null,
+  │       tests: 'pm.test("Status code is 200", function (
+  │ ) {\n' +
+  │         '    pm.response.to.have.status(200);\n' +
+  │         '});\n' +
+  │         '\n' +
+  │         `pm.test("Board name should be: 'Ibironke Boar
+  │ d (2)'"), function () {\n` +
+  │         '    var jsonData = pm.response.json();\n' +
+  │         "    pm.expect(jsonData.value).to.eql('Ibironk
+  │ e Board (2)');\n" +
+  │         '};',
+  │       currentHelper: null,
+  │       helperAttributes: null,
+  │       collectionId: '4c03efcb-f082-448a-a23a-59efc623e
+  │ f2f',
+  │       headers: '',
+  │       pathVariables: {}
+  │     }
+  │   ]
+  │ }
+  │ 'MyTutorCollection'
+  │ '312a1e48-ba5a-4eed-8754-67ea290151d4'
+  │ '63353b95-57b4-46b2-9312-d9718d05610c'
+  │ 'example.com '
+  └
+  √  verify that name is present
+  √  verify that the secound order was recorded
+  √  verify that id is correct
+  √  verify that url matches
+
+┌─────────────────────────┬─────────────────────┬────────────────────┐
+│                         │            executed │             failed │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              iterations │                   1 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│                requests │                   3 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│            test-scripts │                   3 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│      prerequest-scripts │                   0 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              assertions │                  14 │                  0 │
+├─────────────────────────┴─────────────────────┴────────────────────┤
+│ total run duration: 2.1s                                           │
+├────────────────────────────────────────────────────────────────────┤
+│ total data received: 32.22kB (approx)                              │
+├────────────────────────────────────────────────────────────────────┤
+│ average response time: 591ms [min: 417ms, max: 919ms, s.d.: 231ms] │
+└────────────────────────────────────────────────────────────────────┘

@@ -1,0 +1,181 @@
+{
+	"id": "d3f8acdf-14f7-419a-8402-0c941f537c73",
+	"name": "My API collections",
+	"timestamp": "2023-03-18T17:34:14.328Z",
+	"collection_id": "26171659-b50fc0f0-6ea9-460a-ba17-cc67431c9d47",
+	"folder_id": 0,
+	"environment_id": "26171659-7ef9efc0-bdd8-482c-a2d3-034ae60f00af",
+	"totalPass": 14,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-18T17:34:10.801Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a9829c6a-19fa-46ee-a169-98731538e7fa",
+			"name": "Task 6",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf",
+			"time": 420,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				420
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have string": true
+				}
+			]
+		},
+		{
+			"id": "47e9a8f5-1ff9-46b8-b1a4-346bef1bf7e6",
+			"name": "Task 7",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf",
+			"time": 502,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have string": true,
+				"verify that name is present": true,
+				"verify that the secound order was recorded": true,
+				"verify that id is correct": true,
+				"verify that url matches": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that name is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the secound order was recorded": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that id is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that url matches": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				502
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have string": true,
+					"verify that name is present": true,
+					"verify that the secound order was recorded": true,
+					"verify that id is correct": true,
+					"verify that url matches": true
+				}
+			]
+		},
+		{
+			"id": "b94bec56-11eb-4c2d-b5da-18ebad4b7740",
+			"name": "Task 8",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf",
+			"time": 614,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have string": true,
+				"verify that name is present": true,
+				"verify that the secound order was recorded": true,
+				"verify that id is correct": true,
+				"verify that url matches": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that name is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the secound order was recorded": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that id is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that url matches": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				614
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have string": true,
+					"verify that name is present": true,
+					"verify that the secound order was recorded": true,
+					"verify that id is correct": true,
+					"verify that url matches": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1536,
+	"collection": {
+		"requests": [
+			{
+				"id": "a9829c6a-19fa-46ee-a169-98731538e7fa",
+				"method": "GET"
+			},
+			{
+				"id": "47e9a8f5-1ff9-46b8-b1a4-346bef1bf7e6",
+				"method": "GET"
+			},
+			{
+				"id": "b94bec56-11eb-4c2d-b5da-18ebad4b7740",
+				"method": "GET"
+			}
+		]
+	}
+}
